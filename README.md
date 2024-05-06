@@ -5,7 +5,7 @@ This project aims to monitor system performance metrics such as CPU usage, memor
 
 ## Components
 1. **Microsoft SQL Server Table**: 
-   - The SQL Server table `[performance]` is created to store the following system metrics:
+   - The SQL Server table `performance` is created to store the following system metrics:
      - `time`: Timestamp of the data collection
      - `cpu_usage`: CPU usage percentage
      - `memory_usage`: Memory usage percentage
@@ -18,7 +18,7 @@ This project aims to monitor system performance metrics such as CPU usage, memor
      - `disk_usage`: Disk usage percentage
 
 2. **Python Script**:
-   - The Python script `performance_monitor.py` collects system metrics using `psutil` and inserts them into the SQL Server table `[performance]` at regular intervals.
+   - The Python script `performance_monitor.ipynb` collects system metrics using `psutil` and inserts them into the SQL Server table `[performance]` at regular intervals.
 
 3. **Power BI Dashboard**:
    - The Power BI dashboard connects to the SQL Server database and visualizes the real-time performance metrics using various charts and graphs.
