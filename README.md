@@ -18,7 +18,7 @@ This project aims to monitor system performance metrics such as CPU usage, memor
      - `disk_usage`: Disk usage percentage
 
 2. **Python Script**:
-   - The Python script `performance_monitor.ipynb` collects system metrics using `psutil` and inserts them into the SQL Server table `[performance]` at regular intervals.
+   - The Python script `performance_monitor.ipynb` collects system metrics using `psutil` and inserts them into the SQL Server table `performance` at regular intervals.
 
 3. **Power BI Dashboard**:
    - The Power BI dashboard connects to the SQL Server database and visualizes the real-time performance metrics using various charts and graphs.
@@ -32,8 +32,8 @@ This project aims to monitor system performance metrics such as CPU usage, memor
 
 ## Usage
 1. Ensure that Python and the required libraries are installed.
-2. Create the `[performance]` table in your Microsoft SQL Server database.
-3. Update the connection string in the Python script (`performance_monitor.py`) to connect to your SQL Server instance.
+2. Create the `performance` table in your Microsoft SQL Server database.
+3. Update the connection string in the Python script (`performance_monitor.ipynb`) to connect to your SQL Server instance.
 4. Run the Python script to start collecting and inserting performance data into the SQL Server table.
 5. Open the Power BI Desktop and connect it to your SQL Server database.
 6. Design and create visualizations in Power BI to represent the real-time performance metrics.
