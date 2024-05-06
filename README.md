@@ -38,9 +38,3 @@ This project aims to monitor system performance metrics such as CPU usage, memor
 5. Open the Power BI Desktop and connect it to your SQL Server database.
 6. Design and create visualizations in Power BI to represent the real-time performance metrics.
 7. Schedule data refreshes in Power BI to keep the dashboard up-to-date.
-
-## Contributing
-Contributions are welcome! If you find any issues or have suggestions for improvement, please feel free to open an issue or submit a pull request.
-
-## License
-This project is licensed under the [MIT License](LICENSE).
