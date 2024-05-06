@@ -3,9 +3,7 @@
 ## Overview
 This project aims to monitor system performance metrics such as CPU usage, memory usage, network activity, and disk usage in real-time using Python, Microsoft SQL Server, and Power BI. The system metrics are collected using the `psutil` library in Python, stored in a Microsoft SQL Server database, and visualized through a Power BI dashboard.
 
-<video width="320" height="240" controls>
-  <source src="raw/Power BI - Demo.mp4" type="video/mp4">
-</video>
+[Watch the Power BI demo video](raw/Power BI - Demo.mp4)
 
 
 ## Components
